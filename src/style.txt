@@ -1,0 +1,33 @@
+/* Responsive tweak */
+/* seting untuk device smartphone */
+@media screen and (max-width: 768px) {
+    .header-text span {
+        font-size: 16px;
+    }
+    .header-center ul {
+        gap: 10px;
+    }
+    .slider {
+        height: 40vh;
+    }
+    header.scrolled {
+     background: #007bff;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     flex-direction: column;
+     }
+   header {
+   flex-direction: column;
+    }
+    .header-center ul li a {
+    flex-direction: column;
+    color: #fff;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header-center ul {
+    list-style: none;
+    flex-wrap: wrap;
+    }
+}
