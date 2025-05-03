@@ -1,23 +1,56 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <style>
-    video {
-      width: 500px;
-      float: center;
-    }
-  </style>
-</head>
-
-<body>
-<video controls poster="/src/images.jpg">
-  <source src="/src/Movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-</video>
-</body>
-
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restoran Lezat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Restoran Lezat</h1>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Kontak</a></li>
+          <li><a href="event.html">Event Spesial</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h2>Selamat datang di Restoran Lezat!</h2>
+      <p>Makanan berkualitas tinggi dengan cita rasa terbaik.</p>
+      <a href="#menu" class="button">Lihat Menu</a>
+    </section>
+    <section id="menu">
+      <h2>Menu Kami</h2>
+      <div class="menu-container">
+        <div class="menu-item">
+          <img
+            src="nasi_goreng_spesial.png"
+            alt="Nasi Goreng Spesial"
+            style="width: 100px; height: auto"
+          />
+          <p>Nasi Goreng Spesial - Rp. 50.000</p>
+        </div>
+        <div class="menu-item">
+          <img
+            src="sate_ayam.png"
+            alt="Sate Ayam"
+            style="width: 100px; height: auto"
+          />
+          <p>Sate Ayam - Rp. 40.000</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Kontak Kami</h2>
+      <p>Alamat: Jl. Makan Enak No. 10, Kota Lezat</p>
+      <p>Email: info@restoranlezat.com</p>
+    </section>
+    <footer>
+      <p>&copy; 2025 Restoran Lezat. Semua Hak Dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
